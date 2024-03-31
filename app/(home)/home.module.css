@@ -1,0 +1,37 @@
+.listWrap {
+    padding: 15px;
+    margin-top: 20px;
+    border:1px solid black;
+}
+
+.listTitle {
+    text-align: center;
+}
+
+.listList {
+    list-style: none;
+    padding:0;
+}
+
+.listList li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.listList li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.listList li a:visited {
+    color:black;
+}
+
+.listList li a:hover {
+    color:#007bff;
+}

@@ -1,0 +1,55 @@
+.coverTitle {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.coverList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 156px));
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.coverItem {
+    margin-bottom: 20px;
+}
+
+.coverLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.coverImage {
+    margin-right: 20px;
+}
+
+.coverImage img{
+    width: 100%;
+}
+
+.coverDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.coverDetails strong {
+    padding: 20px 0;
+}
+
+.buyButton {
+    border:1px solid black;
+    color: #007bff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
